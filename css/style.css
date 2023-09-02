@@ -1,3 +1,26 @@
-body{
-    background-color: aliceblue;
+.body {
+
+    padding-left: 8%;
+    padding right: 8%;
+}
+
+
+.logo {
+
+    width: 60px;
+    height: 60px;
+
+}
+
+.nav{
+
+}
+
+.navlista{
+
+list-style: none;
+display: flex;
+flex-direction: row;
+justify-content: space-around
+
 }
