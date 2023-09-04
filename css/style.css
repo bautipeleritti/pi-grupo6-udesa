@@ -69,3 +69,13 @@ height: 400px;
 
 
 }
+
+ul.pdepaginalista {
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 0px;
+}
+
