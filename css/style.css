@@ -1,7 +1,7 @@
 .body {
 background-color: #1e2425;
     padding-left: 8%;
-    padding right: 8%;
+    padding-right: 8%;
 }
 
 
@@ -21,6 +21,7 @@ background-color: #1e2425;
 
 display: flex;
 align-items: flex-start;
+background-color: rgb(8, 8, 29);
 }
 
 
@@ -30,7 +31,6 @@ list-style: none;
 display: flex;
 flex-direction: row;
 justify-content: space-evenly
-
 
 }
 
@@ -77,5 +77,10 @@ ul.pdepaginalista {
     flex-direction: row;
     justify-content: space-evenly;
     border: 0px;
+}
+
+.footer{
+    background-color:rgb(8, 8, 29) ;
+    
 }
 
