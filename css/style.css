@@ -6,7 +6,8 @@ background-color: #1e2425;
 
 
 .logo {
-
+padding-left: 20px;
+padding-top: 10px;
     width: 60px;
     height: 60px;
 
@@ -21,7 +22,8 @@ background-color: #1e2425;
 
 display: flex;
 align-items: flex-start;
-background-color: rgb(8, 8, 29);
+background-color: #37465b;
+
 }
 
 
@@ -47,7 +49,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 background-color: #37465b;
 height: 410px;
-width: 1210px;
+width: 100%;
 }
 
 .textobanner{
@@ -59,16 +61,17 @@ font-weight: 600;
 
 font-size: 30px;
 top: 37%;
-left: 10%;
+left: 12%;
 }
 
 .banner{
 
 position: relative;
-padding-left: 5px;
+
+padding-left: 20px;
 padding-top: 5px;
-width: 1200px;
-height: 400px;
+width: 1230px;
+height: 402.5px;
 
 
 }
@@ -80,11 +83,17 @@ ul.pdepaginalista {
     flex-direction: row;
     justify-content: space-evenly;
     border: 0px;
+    padding-top: 3%;
 }
 
 .footer{
-    background-color:rgb(8, 8, 29) ;
+    background-color:#37465b ;
     height: 100px;
     
 }
 
+.nombrespdp{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
