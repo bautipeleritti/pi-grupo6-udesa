@@ -162,3 +162,27 @@ text-decoration: none;
     margin-bottom: 0px;
 
 }
+
+.detallespe{
+    width: 300px;
+    height: 400px;
+    border-color: aqua;
+    background-image: url(/img/fondonegro.avif);
+    border: 5px;
+}
+
+.main{
+    border: 20px;
+    border-style: double;
+    border-color: aqua;
+}
+
+.detallestarwars{
+    width: 300px;
+    height: 400px;
+}
+
+.sectionheader2{
+    padding-top: 30px;
+    padding-left: 20px;
+}
