@@ -94,7 +94,7 @@
     display: flex;
     height: 500px;
     background-color: #37465b;
-    padding-top: 60px;
+    padding-top: 20px;
 }
 
 
@@ -154,4 +154,11 @@ text-decoration: none;
 
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
+}
+
+.p-masvistas{
+    color: white;
+    background-color: #37465b;
+    margin-bottom: 0px;
+
 }
