@@ -299,16 +299,74 @@ border: #1e2425 solid 5px;
     
 }
 
-.listageneros1{
+.seccionbanner{
+
+background-color: #37465b;
+width: 100%;
+height: 100%;
 
 
+
+
+}
+
+.bannergeneros{
+
+
+position: relative;    
+margin-top: 20px;
+border: #1e2425 solid 5px;
+width: 95%;
+margin-left: 30px;
+margin-right: 30px;
+margin-bottom: 20px;
+}
+
+.textobannergeneros{
+
+position: absolute;
+font-family: Arial, Helvetica, sans-serif;
+top: 55%;
+left: 15%;
+color: #ffff;
+font-size: 40px
+;
+}
+
+.listas-contenedor{
+
+display: flex;
+justify-content: center;
+background-color: #37465b;
+width: 100%;
+height: 300px;
+
+}
+
+
+.lista{
+padding-top: 20px;
 list-style: none;
 
-}
-
-.itemgenero{
-
-background-color: #44474c;
-color: #ffff;
 
 }
+
+.lista3{
+
+    padding-top: 20px;
+    list-style: none;
+margin-right: 40px;
+}
+
+.itemgeneros{
+background-color: #1e2425;
+margin: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+padding-right: 100px;
+color: white;
+padding-left: 100px;
+border-radius: 5px;
+font-weight: 600;
+}
+
