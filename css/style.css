@@ -13,6 +13,12 @@
 
 }
 
+.header{
+
+margin-bottom: 10px;
+
+
+}
 
 
 .navbar {
@@ -156,6 +162,8 @@
 }
 
 .footer {
+
+    margin-top: 10px;
     background-color: #37465b;
     height: 100px;
 
@@ -174,14 +182,19 @@
 
 }
 
+.main{
 
+margin-top: 10px;
+
+}
 
 .main2 {
-   
+   margin-top: 10px;
     background-color: #37465b;
-    height: 900px ;
+    height: 830px ;
     width: 100%;
 }
+
 
 .detallestarwars {
    
@@ -224,8 +237,16 @@ font-size: 30px;
 
 }
 
-.sinopsis{
 
+.textosdetalle{
+
+
+
+    
+}
+
+.sinopsis{
+margin-bottom: 10px;
 position: relative;
 color: white;
 font-family: Arial, Helvetica, sans-serif;
@@ -244,14 +265,14 @@ left: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 12px;
-    top: -680px;
-    left: 1080px;
+    top: -600px;
+    left: 85%;
     
 }
 
 
 .valoracion {
-
+    margin-top: 80px   ;
     position: relative;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -301,11 +322,11 @@ border: #1e2425 solid 5px;
 }
 
 .seccionbanner{
-
+margin-top: 10px;
 background-color: #37465b;
 width: 100%;
 height: 100%;
-
+margin-bottom: 10px;
 
 
 
@@ -391,5 +412,15 @@ padding-left: 200px;
 
 background-color:#1e2425;
 color: #ffff;
+
+}
+
+
+.maindetallesgeneros{
+
+
+background-color: #37465b;
+width: 100%;
+height: 500px;
 
 }
