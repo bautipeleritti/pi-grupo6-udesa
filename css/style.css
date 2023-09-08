@@ -111,12 +111,12 @@
 
 
 .caja {
-    padding-top: 0px;
-    flex: 1;
+    width: 25%;
     padding-bottom: 80px;
-    height: 400px;
+    height: 428px;
     background-color: #1e2425;
     margin: 5px;
+    padding: 10px 10px;
 
 }
 
@@ -127,15 +127,15 @@
 
 
     height: 430px;
-    width: 280px;
-    padding: 15px;
+    width: 100%;
+    
 
 }
 
 .titulopeli {
 
     text-align: center;
-    margin-top: -12px;
+    
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-size: 15px;
