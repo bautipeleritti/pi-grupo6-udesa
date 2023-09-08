@@ -104,14 +104,15 @@
     display: flex;
     height: 500px;
     background-color: #37465b;
-    padding-top: 20px;
+    
 }
 
 
 
 
 .caja {
-    width: 25%;
+    padding-top: 0px;
+    flex: 1;
     padding-bottom: 80px;
     height: 428px;
     background-color: #1e2425;
@@ -372,3 +373,23 @@ font-weight: 600;
 
 
 
+.botonbuscar{
+
+
+background-color: #1e2425;
+color: #ffff;
+
+}
+
+.sectionheader2{
+
+padding-top: 30px;
+padding-left: 200px;
+
+}
+.submitboton{
+
+background-color:#1e2425;
+color: #ffff;
+
+}
