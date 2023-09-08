@@ -25,15 +25,18 @@
 
 
 .navlista {
-    margin-top: 0%;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+    flex-direction: row;
     list-style: none;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly
+    justify-content: center;
+    align-items: center;
 }
 
 .textolista {
-    padding: 30px;
+   
     padding-left: 190px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
