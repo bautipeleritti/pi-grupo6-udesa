@@ -26,7 +26,7 @@ margin-bottom: 10px;
     display: flex;
     align-items: flex-start;
     background-color: #37465b;
-
+border-radius: 5px;
 }
 
 
@@ -63,6 +63,7 @@ margin-bottom: 10px;
     background-color: #37465b;
     height: 410px;
     width: 100%;
+    border-radius: 5px;
 }
 
 .textobanner {
@@ -101,8 +102,10 @@ margin-bottom: 10px;
 }
 
 
-.p-masvistas {
 
+.p-masvistas {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding-left: 10px;
@@ -113,7 +116,10 @@ margin-bottom: 10px;
     display: flex;
     height: 410px;
     background-color: #37465b;
-    
+   ;
+
+   border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 
@@ -127,7 +133,7 @@ margin-bottom: 10px;
     background-color: #1e2425;
     margin: 5px;
     padding: 10px 10px;
-
+    border-radius: 5px;
 }
 
 
@@ -138,7 +144,7 @@ margin-bottom: 10px;
 
     height: 360px;
     width: 100%;
-    
+    border-radius: 5px;
 
 }
 
@@ -169,7 +175,7 @@ margin-bottom: 10px;
     margin-top: 10px;
     background-color: #37465b;
     height: 100px;
-
+border-radius: 5px;
 }
 
 .nombrespdp {
@@ -196,6 +202,7 @@ margin-top: 10px;
     background-color: #37465b;
     height: 830px ;
     width: 100%;
+
 }
 
 
@@ -330,7 +337,7 @@ background-color: #37465b;
 width: 100%;
 height: 100%;
 margin-bottom: 10px;
-
+border-radius: 5px;
 
 
 }
@@ -345,6 +352,8 @@ width: 95%;
 margin-left: 30px;
 margin-right: 30px;
 margin-bottom: 20px;
+border-radius: 5px;
+
 }
 
 .textobannergeneros{
@@ -413,7 +422,8 @@ font-weight: 600;
 
 .botonbuscar{
 
-
+border-top-left-radius: 5px;
+border-bottom-right-radius: 5px;
 background-color: #1e2425;
 color: #ffff;
 
@@ -429,7 +439,8 @@ padding-left: 200px;
 
 background-color:#1e2425;
 color: #ffff;
-
+border-top-left-radius: 5px;
+border-bottom-right-radius: 5px;
 }
 
 
