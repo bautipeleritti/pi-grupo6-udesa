@@ -82,11 +82,11 @@ border-radius: 5px;
 
     position: relative;
 
-    padding-left: 20px;
+    padding-left: 30px;
     padding-top: 5px;
     width: 1230px;
     height: 402.5px;
-
+    border-radius: 5px;
 
 }
 
@@ -500,3 +500,13 @@ position: absolute;
     background-color: rgba(0, 0, 0, 0.488);
 
 }
+
+
+
+/* Responsive*/
+
+
+
+@media (max-width: 768px)
+
+
