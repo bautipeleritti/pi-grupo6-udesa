@@ -116,7 +116,7 @@ border-radius: 5px;
     display: flex;
     height: 410px;
     background-color: #37465b;
-   ;
+   
 
    border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -248,12 +248,12 @@ font-size: 30px;
 }
 
 
-.textosdetalle{
 
 
 
 
-}
+
+
 
 .sinopsis{
 margin-bottom: 10px;
@@ -508,5 +508,3 @@ position: absolute;
 
 
 @media (max-width: 768px)
-
-
