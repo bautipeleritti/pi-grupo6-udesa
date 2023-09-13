@@ -60,10 +60,13 @@ margin-bottom: 10px;
 
 .cajapadre {
 
-    background-color: #37465b;
+    background-image: url(../img/1609408585_467254_1609408795_noticia_normal.jpg);
     height: 410px;
     width: 100%;
     border-radius: 5px;
+    border: solid 10px;
+    border-color: #37465b;
+   
 }
 
 .textobanner {
@@ -78,15 +81,19 @@ margin-bottom: 10px;
     left: 12%;
 }
 
-.banner {
 
-    position: relative;
-
-    padding-left: 30px;
-    padding-top: 5px;
-    width: 1230px;
-    height: 402.5px;
+.seccionbanner1{
+    background-image: url(../img/COMO-APRECIAR-LA-OBRA-CINEMATOGRAFICA-imagen-1000x480.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    width: 100%;
+    height: 500px;
     border-radius: 5px;
+    border: solid 5px #37465b;
+    
+    margin-bottom: 10px;
+    margin-top: 10px;
 
 }
 
@@ -128,7 +135,7 @@ margin-bottom: 10px;
     display: flex;
     height: 410px;
     background-color: #37465b;
-   ;
+   
 
    border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -269,8 +276,6 @@ font-size: 30px;
 
 }
 
-
-
 .sinopsis{
 margin-bottom: 10px;
 position: relative;
@@ -347,16 +352,7 @@ border: #1e2425 solid 5px;
     
 }
 
-.seccionbanner{
-margin-top: 10px;
-background-color: #37465b;
-width: 100%;
-height: 100%;
-margin-bottom: 10px;
-border-radius: 5px;
 
-
-}
 
 .bannergeneros{
 
@@ -377,7 +373,7 @@ border-radius: 5px;
 position: absolute;
 font-family: Arial, Helvetica, sans-serif;
 top: 55%;
-left: 15%;
+left: 25%;
 color: #ffff;
 font-size: 40px
 ;
@@ -390,6 +386,7 @@ justify-content: center;
 background-color: #37465b;
 width: 100%;
 height: 300px;
+margin-top: 20px;
 
 }
 
@@ -517,6 +514,18 @@ position: absolute;
 
 }
 
+.seccionbannergeneros{
+    background-image: url(../img/f.elconfidencial.com_original_4eb_a77_5f9_4eba775f9bbe9f2f8c602b8731e81a46.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: 100%;
+    width: 100%;
+    height: 550px;
+    margin-top: 20px;
+    border: solid 5px #37465b;
+    border-radius: 5px
+;
+}
 
 
 /* Responsive*/
@@ -559,10 +568,11 @@ margin-left: -160px;
 
 
 .submitboton{
-
- margin-left: 265px;
-
+  
+   
+ 
 }
+
 
 
 .cajapadre{
