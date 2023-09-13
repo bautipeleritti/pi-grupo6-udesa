@@ -551,17 +551,18 @@ margin-left: -35%;
 }
 
 .botonbuscar{
-margin-right: -325px;
-
+margin-right: -333px;
+width: 65px;
+padding-bottom: 16px;
+margin-left: -160px;
 }
 
 
 .submitboton{
-  
-   
- 
-}
 
+ margin-left: 265px;
+
+}
 
 
 .cajapadre{
@@ -580,16 +581,16 @@ display: none;
 display: flex;
 flex-direction: column;
 width: 80%;
-height: 600px;
+height: 2140px;
 margin-left: 35px;
 margin-top: 10px;
 border-radius: 5px;
 }
 
 .caja2{
-    border: #37465b solid 5px;
+border: #37465b solid 5px;
 margin: 0px;
-margin-top: 10px;
+margin-top: 20px;
 padding: 10px;
 background-color: #1e2425;
 
@@ -598,14 +599,19 @@ background-color: #1e2425;
 
 
 .p-masvistas{
+
+text-align: center;
 padding: 10px;
 border-radius: 5px;
 margin-top: 10px;
+width: 270px;
+margin-left: 33px;
 
 }
 
-.p-masvistas1{
+.sectionheader2{
 
+padding: 0px;
 
 }
 
