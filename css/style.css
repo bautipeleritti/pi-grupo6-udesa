@@ -654,7 +654,42 @@ width: 97%;
 margin-top: 10px;
 }
 
+/*Pagina Acción*/
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: max-content;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-radius: 5px;
 }
+
+.maindetallesgeneros {
+    background-color: #37465b;
+    max-width: 100%;
+    height: max-content;
+    background-image: url(../img/pred-1685023530620.jpg);
+    background-image: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: #37465b 5px solid;
+}
+
+.textoaccion {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+    font-size: 20px;
+    text-align: center;
+}
+.acciondetallesgeneros{
+    margin: 0px;
+}
+
+
+}
+
 
 
 
