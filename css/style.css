@@ -13,9 +13,9 @@
 
 }
 
-.header{
+.header {
 
-margin-bottom: 10px;
+    margin-bottom: 10px;
 
 
 }
@@ -42,7 +42,7 @@ margin-bottom: 10px;
 }
 
 .textolista {
-   
+
     padding-left: 190px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -56,9 +56,10 @@ margin-bottom: 10px;
 
 
 }
-.main{
 
-margin-top: 10px;
+.main {
+
+    margin-top: 10px;
 
 }
 
@@ -66,13 +67,13 @@ margin-top: 10px;
 
     background-image: url(../img/1609408585_467254_1609408795_noticia_normal.jpg);
     height: 410px;
-    width: 98,5%;
-    
-    
+    width: 98, 5%;
+
+
     border-radius: 5px;
     border: solid 10px;
     border-color: #37465b;
-   
+
 }
 
 .textobanner {
@@ -88,16 +89,16 @@ margin-top: 10px;
 }
 
 
-.seccionbanner1{
+.seccionbanner1 {
     background-image: url(../img/COMO-APRECIAR-LA-OBRA-CINEMATOGRAFICA-imagen-1000x480.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    
+
     width: 100%;
     height: 500px;
     border-radius: 5px;
     border: solid 5px #37465b;
-    
+
     margin-bottom: 10px;
     margin-top: 10px;
 
@@ -125,15 +126,15 @@ margin-top: 10px;
     padding-top: 15px;
 }
 
-.p-masvistas1{
+.p-masvistas1 {
 
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
-        padding-left: 10px;
-        padding-top: 15px;
-    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 15px;
+
 
 }
 
@@ -141,9 +142,20 @@ margin-top: 10px;
     display: flex;
     height: 410px;
     background-color: #37465b;
-   
 
-   border-bottom-left-radius: 5px;
+
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.contenedor2 {
+    display: flex;
+    height: 410px;
+    background-color: #37465b;
+
+
+    border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
 
@@ -210,7 +222,7 @@ margin-top: 10px;
     margin-top: 10px;
     background-color: #37465b;
     height: 100px;
-border-radius: 5px;
+    border-radius: 5px;
 }
 
 .nombrespdp {
@@ -228,68 +240,69 @@ border-radius: 5px;
 
 
 .main2 {
-   margin-top: 10px;
+    margin-top: 10px;
     background-color: #37465b;
-    height: 830px ;
+    height: 830px;
     width: 100%;
 
 }
 
 
 .detallestarwars {
-   
+
     width: 300px;
     height: 400px;
     position: relative;
     top: -450px;
     left: 10%;
     border: 5px solid #ffff;
-   
+
 }
 
 .imagendefondo {
     position: relative;
     height: 500px;
-  width: 95%;
- top: 20px;
- left: 30px;
- border: 5px solid #1e2425;
+    width: 95%;
+    top: 20px;
+    left: 30px;
+    border: 5px solid #1e2425;
 }
 
 
 .titulo_ {
 
-position: relative;
-top: -870px;
-left: 40%;
-color: white;
-font-family: Arial, Helvetica, sans-serif;}
+    position: relative;
+    top: -870px;
+    left: 40%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .titulopeliculadetalle {
     position: relative;
     top: -780px;
-left: 40%;
-color: white;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 800;
-font-size: 30px;
+    left: 40%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
 
 
 }
 
-.sinopsis{
-margin-bottom: 10px;
-position: relative;
-color: white;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 400;
-font-size: 14px;
-top: -430px;
-left: 30px;
+.sinopsis {
+    margin-bottom: 10px;
+    position: relative;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    top: -430px;
+    left: 30px;
 
 }
 
-.fechaestreno{
+.fechaestreno {
 
 
     position: relative;
@@ -299,12 +312,12 @@ left: 30px;
     font-size: 12px;
     top: -600px;
     left: 85%;
-    
+
 }
 
 
 .valoracion {
-    margin-top: 80px   ;
+    margin-top: 80px;
     position: relative;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -315,7 +328,7 @@ left: 30px;
 
 }
 
-.genero{
+.genero {
 
 
 
@@ -330,17 +343,17 @@ left: 30px;
 
 }
 
-.cienciaficcion{
+.cienciaficcion {
 
-background-color: #1e2425;
-color: #ffff;
-text-decoration: none;
-border-radius: 12%;
-border: #1e2425 solid 5px;
+    background-color: #1e2425;
+    color: #ffff;
+    text-decoration: none;
+    border-radius: 12%;
+    border: #1e2425 solid 5px;
 
 }
 
-.favoritos{
+.favoritos {
 
     position: relative;
     color: white;
@@ -350,162 +363,162 @@ border: #1e2425 solid 5px;
     top: -500px;
     left: 1000px;
     list-style: none;
-    
-}
-
-
-
-.bannergeneros{
-
-
-position: relative;    
-margin-top: 20px;
-border: #1e2425 solid 5px;
-width: 95%;
-margin-left: 30px;
-margin-right: 30px;
-margin-bottom: 20px;
-border-radius: 5px;
 
 }
 
-.textobannergeneros{
 
-position: absolute;
-font-family: Arial, Helvetica, sans-serif;
-top: 55%;
-left: 25%;
-color: #ffff;
-font-size: 40px
-;
-}
 
-.listas-contenedor{
+.bannergeneros {
 
-display: flex;
-justify-content: center;
-background-color: #37465b;
-width: 100%;
-height: 300px;
-margin-top: 20px;
+
+
+    margin-top: 20px;
+    border: #1e2425 solid 5px;
+    width: 95%;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
 
 }
 
-.listas-contenedor2{
+.textobannergeneros {
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20%;
+    margin-top: 15%;
+    color: #ffff;
+    font-size: 40px;
+}
+
+.listas-contenedor {
 
     display: flex;
     justify-content: center;
     background-color: #37465b;
     width: 100%;
     height: 300px;
-    
-margin-top: 10px;
+    margin-top: 20px;
+
+}
+
+.listas-contenedor2 {
+
+    display: flex;
+    justify-content: center;
+    background-color: #37465b;
+    width: 100%;
+    height: 300px;
+
+    margin-top: 10px;
 
 
 }
 
 
-.lista{
-padding-top: 20px;
-list-style: none;
-padding-right: 10px;
+.lista {
+    padding-top: 20px;
+    list-style: none;
+    padding-right: 10px;
 
 }
 
-.lista3{
+.lista3 {
 
     padding-top: 20px;
     list-style: none;
-margin-right: 40px;
+    margin-right: 40px;
 }
 
-.itemgeneros{
-background-color: #1e2425;
-margin: 20px;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 15px;
-padding-right: 100px;
-color: white;
-padding-left: 100px;
-border-radius: 5px;
-font-weight: 600;
-
-}
-
-
-
-.botonbuscar{
-
-border-top-left-radius: 5px;
-border-bottom-right-radius: 5px;
-background-color: #1e2425;
-color: #ffff;
-
-}
-
-.sectionheader2{
-
-padding-top: 30px;
-padding-left: 200px;
-
-}
-.submitboton{
-
-background-color:#1e2425;
-color: #ffff;
-border-top-left-radius: 5px;
-border-bottom-right-radius: 5px;
-}
-
-
-.maindetallesgeneros{
-
-
-background-color: #37465b;
-max-width: 100%;
-height: 500px;
-background-image: url(../img/pred-1685023530620.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-border: #37465b 5px solid ;
-}
-
-
-.textoaccion{
-margin-left: 5%;
-margin-top: 15%;
-
-font-family: Arial, Helvetica, sans-serif;
-color:#ffff;
-font-size: 30px;
-}
-
-.sectionpadrepelis{
-
-
-margin-top: 10px;
-
+.itemgeneros {
+    background-color: #1e2425;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-right: 100px;
+    color: white;
+    padding-left: 100px;
+    border-radius: 5px;
+    font-weight: 600;
 
 }
 
 
 
-.mainaccion{
+.botonbuscar {
 
-margin-top: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #1e2425;
+    color: #ffff;
 
 }
 
-.titulogeneros{
+.sectionheader2 {
 
-margin-top: 15px;
-margin-left: 50px;
-color: #ffff;
-font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    padding-left: 200px;
+
 }
 
-.resultadosbusqueda{
-position: absolute;
+.submitboton {
+
+    background-color: #1e2425;
+    color: #ffff;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.maindetallesgeneros {
+
+
+    background-color: #37465b;
+    max-width: 100%;
+    height: 500px;
+    background-image: url(../img/pred-1685023530620.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: #37465b 5px solid;
+}
+
+
+.textoaccion {
+    margin-left: 5%;
+    margin-top: 15%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+    font-size: 30px;
+}
+
+.sectionpadrepelis {
+
+
+    margin-top: 10px;
+
+
+}
+
+
+
+.mainaccion {
+
+    margin-top: 10px;
+
+}
+
+.titulogeneros {
+
+    margin-top: 15px;
+    margin-left: 50px;
+    color: #ffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resultadosbusqueda {
+    position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     top: 50%;
     left: 15%;
@@ -515,17 +528,16 @@ position: absolute;
 
 }
 
-.seccionbannergeneros{
+.seccionbannergeneros {
     background-image: url(../img/f.elconfidencial.com_original_4eb_a77_5f9_4eba775f9bbe9f2f8c602b8731e81a46.jpg);
     background-repeat: no-repeat;
-    
+
     background-size: 100%;
     width: 100%;
     height: 550px;
     margin-top: 20px;
     border: solid 5px #37465b;
-    border-radius: 5px
-;
+    border-radius: 5px;
 }
 
 
@@ -533,119 +545,115 @@ position: absolute;
 
 
 
-@media (max-width: 420px){
+@media (max-width: 420px) {
 
-.body{
+    .body {
 
-padding-right: 2%;
-padding-left: 2%;
+        padding-right: 2%;
+        padding-left: 2%;
 
-}
+    }
 
-.logo{
-    margin-top:10px;
-    height: 50px;
-    width: 50px;
-
-
-
-}
+    .logo {
+        margin-top: 10px;
+        height: 50px;
+        width: 50px;
 
 
 
-.navlista{
-
-flex-direction: column;
-margin-left: -35%;
-}
-
-.botonbuscar{
-
-width: 100%;
-height: 10px;
-
-}
+    }
 
 
 
+    .navlista {
+
+        flex-direction: column;
+        margin-left: -35%;
+    }
+
+    .botonbuscar {
+
+        width: 100%;
+        height: 10px;
+
+    }
+
+    .cajapadre {
+
+
+        display: none;
+    }
+
+    .banner {
+
+        display: none;
+    }
+
+
+    .contenedor {
+
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 2140px;
+        margin-left: 35px;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+
+    .caja2 {
+        border: #37465b solid 5px;
+        margin: 0px;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #1e2425;
+
+    }
 
 
 
-.cajapadre{
+    .p-masvistas {
 
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+        width: 270px;
+        margin-left: 33px;
 
-display: none;
-}
-.banner{
+    }
 
-    display: none;
-}
+    .sectionheader2 {
 
+        padding: 30px;
 
-.contenedor{
+    }
 
-display: flex;
-flex-direction: column;
-width: 80%;
-height: 2140px;
-margin-left: 35px;
-margin-top: 10px;
-border-radius: 5px;
-}
+    .imagendefondo {
+        display: none;
 
-.caja2{
-border: #37465b solid 5px;
-margin: 0px;
-margin-top: 20px;
-padding: 10px;
-background-color: #1e2425;
-
-}
+    }
 
 
 
-.p-masvistas{
+    .seccionbanner1 {
 
-text-align: center;
-padding: 10px;
-border-radius: 5px;
-margin-top: 10px;
-width: 270px;
-margin-left: 33px;
+        background-image: none;
+        height: 35px;
+        background-color: #37465b;
+        width: 97%;
+    }
 
-}
+    .textobannergeneros {
 
-.sectionheader2{
+        text-align: center;
+        top: 11.5%;
+        left: 30%;
+        font-size: 30px;
 
-padding: 30px;
+    }
 
-}
-
-.imagendefondo{
-   display: none;
-
-}
-
-
-
-.seccionbanner1{
-
-background-image: none;
-height: 35px;
-background-color: #37465b;
-width: 97%;
-}
-
-.textobannergeneros{
-
-text-align: center;
-top: 11.5%;
-left: 30%;
-font-size: 30px;
-
-}
-
-.seccionbannergeneros{
+    .seccionbannergeneros {
 
 background-image: none;
 height: 35px;
@@ -654,45 +662,97 @@ width: 97%;
 margin-top: 10px;
 }
 
-/*Pagina Acción*/
-.contenedor {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    height: max-content;
-    margin-left: 35px;
-    margin-top: 10px;
-    border-radius: 5px;
-}
-
-.maindetallesgeneros {
-    background-color: #37465b;
-    max-width: 100%;
-    height: max-content;
-    background-image: url(../img/pred-1685023530620.jpg);
-    background-image: none;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: #37465b 5px solid;
-}
-
-.textoaccion {
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffff;
-    font-size: 20px;
-    text-align: center;
-}
-.acciondetallesgeneros{
-    margin: 0px;
-}
-
-
 }
 
 
 
 
+    .sinopsis {
+
+        position: relative;
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+        left: 4px;
+        margin-bottom: -2px;
+        top: -16px;
+        width: 344px;
+    }
 
 
+    .fechaestreno {
+        position: relative;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        top: -330px;
+        left: 22%;
+    }
 
+    .valoracion {
+        margin-top: 80px;
+        position: relative;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        top: -390px;
+        left: 15%;
+    }
+
+
+    .genero {
+        position: relative;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        top: -377px;
+        left: 86px;
+    }
+
+    .bannergeneros {
+
+        margin-top: 20px;
+        border: #1e2425 solid 5px;
+        width: 95%;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        display: none;
+    }
+
+    .resultadosbusqueda {
+        position: static;
+        font-family: Arial, Helvetica, sans-serif;
+        top: 10%;
+        color: #ffff;
+        font-size: 40px;
+        background-color: rgba(0, 0, 0, 0.488);
+        left: 0%;
+    }
+
+    .contenedor2 {
+        display: flex;
+        flex-direction: column;
+        position: static;
+        width: 80%;
+        height: 2140px;
+        margin-left: 35px;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+
+    .caja {
+
+        height: 396px;
+        background-color: #1e2425;
+        margin: 5px;
+        padding: 10px 10px;
+        border-radius: 5px;
+        top: 10px;
+    }
+
+}
