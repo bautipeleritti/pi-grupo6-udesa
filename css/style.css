@@ -654,10 +654,71 @@ width: 97%;
 margin-top: 10px;
 }
 
+
+.genero {
+    position: relative;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    top: -377px;
+    left: 86px;
+
+}
+
+.detallestarwars {
+    width: 275px;
+    height: 400px;
+    position: relative;
+    top: 23px;
+    left: 10%;
+    border: 5px solid #ffff;
 }
 
 
 
 
+.sinopsis {
+   
+    position: relative;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    left: 4px;
+    margin-bottom: -2px;
+    top: -16px;
+    width: 344px;
+}
 
 
+.fechaestreno {
+    position: relative;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    top: -330px;
+    left: 22%;
+}
+
+.valoracion {
+    margin-top: 80px;
+    position: relative;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    top: -390px;
+    left: 15%;
+}
+
+
+.genero {
+    position: relative;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    top: -377px;
+    left: 86px;
+}
