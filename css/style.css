@@ -78,14 +78,14 @@
 
 .textobanner {
 
-    position: absolute;
+
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 
     font-size: 30px;
-    top: 40%;
-    left: 12%;
+    margin-top: 12%;
+    margin-left: 1%;
 }
 
 
@@ -242,46 +242,55 @@
 .main2 {
     margin-top: 10px;
     background-color: #37465b;
-    height: 830px;
+    height: max-content;
     width: 100%;
 
 }
 
+/* nuevas reglas detalle peliculas */
+
+.detalles-pelis {
+    display: flex;
+    height: max-content;
+}
+
+.imgfondo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textosdetalle {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 .detallestarwars {
-
     width: 300px;
     height: 400px;
-    position: relative;
-    top: -450px;
-    left: 10%;
     border: 5px solid #ffff;
-
 }
 
 .imagendefondo {
-    position: relative;
+
     height: 500px;
     width: 95%;
-    top: 20px;
-    left: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
     border: 5px solid #1e2425;
 }
 
 
 .titulo_ {
-
-    position: relative;
-    top: -870px;
-    left: 40%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .titulopeliculadetalle {
-    position: relative;
-    top: -780px;
-    left: 40%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
@@ -292,53 +301,43 @@
 
 .sinopsis {
     margin-bottom: 10px;
-    position: relative;
+
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 14px;
-    top: -430px;
-    left: 30px;
 
 }
 
 .fechaestreno {
 
 
-    position: relative;
+
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 12px;
-    top: -600px;
-    left: 85%;
 
 }
 
 
 .valoracion {
-    margin-top: 80px;
-    position: relative;
+    margin-top: 10px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 12px;
-    top: -680px;
-    left: 30px;
 
 }
 
 .genero {
 
-
-
-    position: relative;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 12px;
-    top: -680px;
-    left: 30px;
+    margin-top: 5px;
+
 
 
 }
@@ -355,13 +354,10 @@
 
 .favoritos {
 
-    position: relative;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 15px;
-    top: -500px;
-    left: 1000px;
     list-style: none;
 
 }
@@ -518,10 +514,8 @@
 }
 
 .resultadosbusqueda {
-    position: absolute;
+
     font-family: Arial, Helvetica, sans-serif;
-    top: 50%;
-    left: 15%;
     color: #ffff;
     font-size: 40px;
     background-color: rgba(0, 0, 0, 0.488);
@@ -563,7 +557,13 @@
 
     }
 
+    .detallestarwars {
 
+        width: 300px;
+        height: 400px;
+        border: 5px solid #ffff;
+
+    }
 
     .navlista {
 
@@ -595,7 +595,7 @@
         display: flex;
         flex-direction: column;
         width: 80%;
-        height: 2140px;
+        height: max-content;
         margin-left: 35px;
         margin-top: 10px;
         border-radius: 5px;
@@ -647,20 +647,21 @@
     .textobannergeneros {
 
         text-align: center;
-        top: 11.5%;
-        left: 30%;
+        margin-top: 0px;
+        margin-left: 10px;
+
         font-size: 30px;
 
     }
 
     .seccionbannergeneros {
 
-background-image: none;
-height: 35px;
-background-color: #37465b;
-width: 97%;
-margin-top: 10px;
-}
+        background-image: none;
+        height: 35px;
+        background-color: #37465b;
+        width: 97%;
+        margin-top: 10px;
+    }
 
 
 
@@ -669,46 +670,33 @@ margin-top: 10px;
 
     .sinopsis {
 
-        position: relative;
+
         color: white;
         font-weight: 400;
         font-size: 15px;
         left: 4px;
         margin-bottom: -2px;
-        top: -16px;
         width: 344px;
     }
 
 
     .fechaestreno {
-        position: relative;
         color: white;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 400;
         font-size: 15px;
-        top: -330px;
-        left: 22%;
     }
 
     .valoracion {
-        margin-top: 80px;
-        position: relative;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 600;
-        font-size: 15px;
-        top: -390px;
-        left: 15%;
+        margin-top: 10px;
     }
 
-
     .genero {
-        position: relative;
+
         color: white;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 600;
         font-size: 15px;
-        top: -377px;
         left: 86px;
     }
 
@@ -725,9 +713,7 @@ margin-top: 10px;
     }
 
     .resultadosbusqueda {
-        position: static;
         font-family: Arial, Helvetica, sans-serif;
-        top: 10%;
         color: #ffff;
         font-size: 40px;
         background-color: rgba(0, 0, 0, 0.488);
@@ -737,7 +723,7 @@ margin-top: 10px;
     .contenedor2 {
         display: flex;
         flex-direction: column;
-        position: static;
+
         width: 80%;
         height: 2140px;
         margin-left: 35px;
@@ -752,7 +738,57 @@ margin-top: 10px;
         margin: 5px;
         padding: 10px 10px;
         border-radius: 5px;
-        top: 10px;
     }
 
+    /* reglas de css para detalle peliculas */
+
+
+    .detalles-pelis {
+        flex-direction: column;
+    }
+
+    .imgfondo {
+        width: 100%;
+       
+    }
+
+    .textosdetalle {
+        width: 100%;
+    }
+
+
+
+    .listas-contenedor{
+
+        height: max-content;
+        flex-direction: column;
+
+
+
+    }
+
+    .listas-contenedor2{
+
+
+        height: max-content;
+        flex-direction: column;
+
+
+
+
+    }
+
+    .maindetallesgeneros{
+
+        background-image: none;
+        height: max-content;
+
+    }
+
+    .acciondetallesgeneros{
+display: flex;
+align-items: center;
+margin: 0%;
+justify-content: center;
+    }
 }
