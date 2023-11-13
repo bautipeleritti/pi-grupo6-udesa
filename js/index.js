@@ -20,7 +20,6 @@ return res.json();
 })
 
 .then(function(data){
-
 let MiData = data.results;
 let contenido = "";
 
