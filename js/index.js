@@ -66,13 +66,13 @@ return res.json();
 
 let MiData = data.results;
 let contenido = "";
-
+console.log(MiData);
 
 for (let i=0; i< 5; i ++ ){
 
 
 
-contenido += `<div class="caja"><a href="./detallepelicula.html?id=${MiData[i].id}"><img src="https://image.tmdb.org/t/p/w500/${MiData[i].poster_path} 
+contenido += `<div class="caja"><a href="./detalleserie.html?id=${MiData[i].id}"><img src="https://image.tmdb.org/t/p/w500/${MiData[i].poster_path} 
 " class="pulp">
 <h3 class="titulopeli">${MiData[i].name + " " + MiData[i].first_air_date}</h3>
 </a></div>`
