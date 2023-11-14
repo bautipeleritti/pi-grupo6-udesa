@@ -29,19 +29,17 @@ let genseries3 = document.querySelector("#genseries3")
     .then(function (data) {
 
         
-        //console.log(data);
 
         miData = data.genres
         contenido = " "
-
+console.log(miData)
 
 
         for (let i = 0; i < 7 ; i++ ) {
 
-       // console.log(miData[i].name);
 
         contenido += 
-         `<a href="./detallesgeneros.html"><li class="itemgeneros">${miData[i].name}</li></a>`
+         `<a href="./detallesgeneros.html?id=${miData[i].id}"><li class="itemgeneros">${miData[i].name}</li></a>`
 
 
         generosid.innerHTML = contenido
@@ -75,7 +73,6 @@ let genseries3 = document.querySelector("#genseries3")
     .then(function (data) {
 
         
-        //console.log(data);
 
         miData = data.genres
         contenido = " "
@@ -84,10 +81,9 @@ let genseries3 = document.querySelector("#genseries3")
 
         for (let i = 7; i < 13 ; i++ ) {
 
-        //console.log(miData[i].name);
 
         contenido += 
-         `<a href="./detallesgeneros.html"><li class="itemgeneros">${miData[i].name}</li></a>`
+         `<a href="./detallesgeneros.html?id=${miData[i].id}"><li class="itemgeneros">${miData[i].name}</li></a>`
 
 
         generosid2.innerHTML = contenido
@@ -122,7 +118,6 @@ fetch(generos)
 .then(function (data) {
 
     
-    //console.log(data);
 
     miData = data.genres
     contenido = " "
@@ -131,10 +126,9 @@ fetch(generos)
 
     for (let i = 13; i < 19 ; i++ ) {
 
-    //console.log(miData[i].name);
 
     contenido += 
-     `<a href="./detallesgeneros.html"><li class="itemgeneros">${miData[i].name}</li></a>`
+     `<a href="./detallesgeneros.html?id=${miData[i].id}"><li class="itemgeneros">${miData[i].name}</li></a>`
 
 
     generosid3.innerHTML = contenido
@@ -165,7 +159,6 @@ fetch(generosseries)
 .then(function (data) {
 
     
-    console.log(data);
 
     miData = data.genres
     contenido = " ";
@@ -174,10 +167,9 @@ fetch(generosseries)
 
     for (let i = 0; i < 6 ; i++ ) {
 
-    console.log(miData[i].name);
 
     contenido += 
-     `<a href="./detallesgeneros.html"><li class="itemgeneros">${miData[i].name}</li></a>`
+     `<a href="./detallesgeneros.html?id=${miData[i].id}"><li class="itemgeneros">${miData[i].name}</li></a>`
 
 
     genseries.innerHTML = contenido
@@ -196,7 +188,15 @@ fetch(generosseries)
 })
 
 
+
+
+
+
 //SEGUNDO FETCH SERIES
+
+
+
+
 fetch(generosseries)
 
 .then(function (res) {
@@ -208,7 +208,6 @@ fetch(generosseries)
 .then(function (data) {
 
     
-    console.log(data);
 
     miData = data.genres
     contenido = " ";
@@ -217,10 +216,9 @@ fetch(generosseries)
 
     for (let i = 6; i < 12 ; i++ ) {
 
-    console.log(miData[i].name);
 
     contenido += 
-     `<a href="./detallesgeneros.html"><li class="itemgeneros">${miData[i].name}</li></a>`
+     `<a href="./detallesgeneros.html?id=${miData[i].id}"><li class="itemgeneros">${miData[i].name}</li></a>`
 
 
     genseries2.innerHTML = contenido
@@ -239,7 +237,12 @@ fetch(generosseries)
 })
 
 
+
+
 //TERCER FETCH SERIES
+
+
+
 fetch(generosseries)
 
 .then(function (res) {
@@ -252,7 +255,6 @@ fetch(generosseries)
 
     
     console.log(data);
-
     miData = data.genres
     contenido = " ";
 
@@ -260,10 +262,9 @@ fetch(generosseries)
 
     for (let i = 12; i < 17 ; i++ ) {
 
-    console.log(miData[i].name);
 
     contenido += 
-     `<a href="./detallesgeneros.html"><li class="itemgeneros">${miData[i].name}</li></a>`
+     `<a href="./detallesgeneros.html?id=${miData[i].id}"><li class="itemgeneros">${miData[i].name}</li></a>`
 
 
     genseries3.innerHTML = contenido
