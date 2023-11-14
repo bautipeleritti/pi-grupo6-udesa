@@ -4,7 +4,8 @@ let urlparams = new URLSearchParams(location.search);
 
 let qsIdPelicula = urlparams.get('id');
 
-
+const urlPeliculasRecomendadas = `${discoverEndpoint}?api_key=${acaVaLaAPIKey}&with_genres=${qsIdGenero}`;
+const urlSeriesRecomendadas = `${discoverEndpointSeries}?api_key=${acaVaLaAPIKey}&with_genres=${qsIdGenero}`;
 
 let DetallePelicula = `https://api.themoviedb.org/3/movie/${qsIdPelicula}?api_key=${acaVaLaAPIKey}`
 
