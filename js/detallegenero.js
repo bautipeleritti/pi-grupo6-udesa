@@ -24,7 +24,7 @@ fetch(urlPeliculasRecomendadas)
     .then(function (data) {
         console.log(data);
         miData = data.results;
-        contenido = ' '
+        contenido = ' ';
 
 
         for (let i = 0; i < 5; i++) {
@@ -34,7 +34,7 @@ fetch(urlPeliculasRecomendadas)
         `<section class="sectionpadrepelis">
         <div class="contenedor">
             <h2 class="titulopadre"></h2>
-<div class="caja"><a href="./detallepelicula.html"><img src="https://image.tmdb.org/t/p/w500/${miData[i].poster_path}" class="pulp">
+        <div class="caja"><a href="./detallepelicula.html"><img src="https://image.tmdb.org/t/p/w500/${miData[i].poster_path}" class="pulp">
          <h3 class="titulopeli">${miData[i].title}</h3>
          
          </div>
@@ -80,7 +80,7 @@ fetch(urlSeriesRecomendadas)
 .then(function (data) {
     console.log(data);
     miData = data.results;
-    contenido = ' '
+    contenido = ' ';
 
     for (let i = 0; i < 5; i++) {
 
@@ -88,8 +88,8 @@ fetch(urlSeriesRecomendadas)
     `<section class="sectionpadrepelis">
     <div class="contenedor">
         <h2 class="titulopadre"></h2>
-<div class="caja"><a href="./detallepelicula.html?id=${MiData[i].id}"><img src="https://image.tmdb.org/t/p/w500/${miData[i].poster_path}" class="pulp">
-     <h3 class="titulopeli">${miData[i].title}</h3>
+<div class="caja"><a href="./detallepelicula.html?id=${miData[i].id}"><img src="https://image.tmdb.org/t/p/w500/${miData[i].poster_path}" class="pulp">
+     <h3 class="titulopeli">${miData[i].name}</h3>
      
      </div>
 
