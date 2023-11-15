@@ -22,11 +22,13 @@
                     <a class="linkhome" href="./generos.html"><li class="textolista"> GENEROS</li> </a>
                   
                 </ul>
-            <section class="sectionheader2">
-                <input class="botonbuscar" type="text" name="Películas" value="Buscá miles de titulos..." > 
-                <a href="./buscar.html"><button type="submit" class="submitboton"> Buscar</button></a>
-            
-            </section>
+                <form action ="buscar.html" method = "GET" class="botonbuscar">
+                    <p><label for="Buscador"> </label> Buscador </p>
+                    <div class="botonenviar">
+                     <p><input type = "Buscador" id="buscador" name = "q" placeholder="Escriba aqui..." class="search"></p> 
+                     <p><input type = "submit" value = "search" ></p>
+                   </div>
+               </form>
             </section>
         </nav>
 

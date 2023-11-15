@@ -636,6 +636,38 @@
 
 
 
+    .atributoflex3{
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .atributoflex{
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .atributoflex2{
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .letrablanca{
+        color: white;
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+   .botonenviar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+
+  
+
+
     .seccionbanner1 {
 
         background-image: none;
@@ -723,7 +755,6 @@
     .contenedor2 {
         display: flex;
         flex-direction: column;
-
         width: 80%;
         height: 2140px;
         margin-left: 35px;

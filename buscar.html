@@ -12,7 +12,7 @@
 <body class="body">
     <header>
         <nav class="nav">
-            <section class="navbar" style="">
+            <section class="navbar" style ="">
                 <a href="index.html"><img src="./img/Logo colibri terminado BLANCO.png" class="logo"></a>
 
 
@@ -22,10 +22,13 @@
                     <a class="linkhome" href="./generos.html"><li class="textolista"> GENEROS</li> </a>
                    
                 </ul>
-            <section class="sectionheader2">
-                <input class="botonbuscar" type="text" name="Películas" value="Buscá miles de titulos..."> <a href="./buscar.html"><button type="submit" class="submitboton"> buscar</button></a>
-
-            </section>
+                <form action ="buscar.html" method = "GET" class="">
+                    <p><label for="Buscador"> </label> Buscador </p>
+                    <div class="botonenviar">
+                     <p><input type = "Buscador" id="buscador" name = "q" placeholder="Escriba aqui..." class="search"></p> 
+                     <p><input type = "submit" value = "search" ></p>
+                   </div>
+               </form>
             </section>
         </nav>
 
@@ -43,26 +46,24 @@
 
 
             <div class="contenedor2">
+                <section class="NoResults">
+                    <h2></h2>
+                </section>
+                
+                <section class="atributoflex3">
             
-
-                <div class="caja"><a href="./detallepelicula.html"><img src="./img/unnamed.png" class="pulp">
-                        <h3 class="titulopeli">Pulp Fiction (1994)</h3>
-                    </a></div>
-                <div class="caja"><a href="./detallepelicula.html"><img src="./img/450_1000.jpg" class="pulp">
-                        <h3 class="titulopeli">Volver al Futuro (1985)</h3>
-                    </a></div>
-                <div class="caja"><a href="./detallepelicula.html"><img src="./img/ac54631a0ae7b7af5c2fe329cd895c09.jpg"
-                            class="pulp">
-                        <h3 class="titulopeli">Star wars: V (1980)</h3>
-                    </a></div>
-                <div class="caja"><a href="./detallepelicula.html"><img src="./img/341344.webp" class="pulp">
-                        <h3 class="titulopeli">Interstellar (2014)</h3>
-                    </a></div>
+                     <h2 class="result-titulo"></h2>
+                     <h3>Resultado Peliculas</h3>
+                </section>
+            
+                <section class="atributoflex2">
+            
+                    <h2 class="atributoflex2"></h2>
+                    <h3>Resultados Series </h3>
                     
-                <div class="caja"><a href="./detallepelicula.html"><img src="./img\592219.webp" class="pulp">
-                        <h3 class="titulopeli">Harry Potter (2001)</h3>
-                    </a></div>
-    
+                </section>
+
+                
             </div>
 
 
@@ -82,6 +83,6 @@
 
         </ul>
     </footer>
-
+<script src="./js/buscar.js"></script>
 </body>
 </html>
