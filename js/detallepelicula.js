@@ -4,9 +4,10 @@ let urlparams = new URLSearchParams(location.search);
 
 let qsIdPelicula = urlparams.get('id');
 
-
+let qsRecomendadas = document.querySelector('#recomendador')
 
 let DetallePelicula = `https://api.themoviedb.org/3/movie/${qsIdPelicula}?api_key=${acaVaLaAPIKey}`
+let recomendadas = `https://api.themoviedb.org/3/movie/${qsIdPelicula}/recommendations?api_key=${acaVaLaAPIKey}`;
 
 
 
@@ -20,7 +21,6 @@ fetch(DetallePelicula)
 
     .then(function (data) {
 
-        console.log(data);
 
         let imagen = document.querySelector('#imagen');
         imagen.src = "https://image.tmdb.org/t/p/w500/" + data.poster_path
@@ -37,15 +37,15 @@ fetch(DetallePelicula)
         valoracion = document.querySelector('#valoracion');
         valoracion.innerHTML = 'Valoración: ' + data.vote_average + ' / 10'
 
+        genero = document.querySelector('#generoid');
+        let contenido = "";
+
         for (let index = 0; index < data.genres.length; index++) {
 
-
-
-            genero = document.querySelector('#generoid');
-            genero.innerHTML += ' ' + data.genres[index].name
+         contenido += `<a class="cienciaficcion" href="./detallesgeneros.html?id=${data.genres[index].id}">${data.genres[index].name}</a>` 
 
         }
-
+        genero.innerHTML = contenido;
 
     })
 
@@ -60,6 +60,44 @@ fetch(DetallePelicula)
     })
 
 
+fetch(recomendadas)
+
+    .then(function (res) {
+
+        return res.json();
+
+    })
+
+    .then(function (data) {
+        console.log(data);
+
+        let MiData = data.results;
+        let contenido = "";
+          
+            
+        for (let i=0; i< 5; i ++ ){
+            
+            
+            
+            contenido += `<div class="caja"><a href="./detallepelicula.html?id=${MiData[i].id}"><img src="https://image.tmdb.org/t/p/w500/${MiData[i].poster_path} 
+            " class="pulp">
+            <h3 class="titulopeli">${MiData[i].title + " " + MiData[i].release_date}</h3>
+            </a></div>`
+            
+            }
+            
+            
+            qsRecomendadas.innerHTML = contenido;
+            
+            } )
+
+
+    .catch(function (error) {
+
+        console.log(error);
+
+
+    })
 
 
 
