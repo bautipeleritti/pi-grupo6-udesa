@@ -132,3 +132,9 @@ console.log(error);
 
 })
 
+// loader 
+
+setTimeout(function() {
+    document.getElementById("loader").style.display = "none"; // Oculta el loader
+    document.getElementById("contenido").style.display = "block"; // Muestra el contenido
+  }, 3000);
