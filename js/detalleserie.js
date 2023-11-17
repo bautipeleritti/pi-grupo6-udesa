@@ -8,6 +8,9 @@ let recomendadas = `https://api.themoviedb.org/3/tv/${qsIdSerie}/recommendations
 let DetalleSerie= `https://api.themoviedb.org/3/tv/${qsIdSerie}?api_key=${acaVaLaAPIKey}`
 let qsRecomendadas = document.querySelector('#recomendador')
 
+let trailerSeries = `https://api.themoviedb.org/3/tv/${qsIdSerie}/videos?api_key=${acaVaLaAPIKey}`
+let sectionTrailerSeries = document.querySelector('#trailerserie')
+
 
 fetch(DetalleSerie)
 
@@ -117,3 +120,41 @@ fetch(recomendadas)
         } else {
           qsRecomendadas.style.display = "none";
         }}
+
+
+
+        //TRAILER SERIES
+
+        fetch(trailerSeries)
+
+        .then(function (res) {
+    
+            return res.json();
+    
+        })
+    
+        .then(function (data) {
+            console.log(data);
+    
+            let MiData = data.results;
+            let contenido = "";
+            for (let i = 0; i < MiData.length; i++) {
+                
+            contenido = `<h2 id="trailerseriee">Trailer: https://www.youtube.com/watch?v=${MiData[i].key} </h2>`
+            }
+            
+                
+           
+                
+            sectionTrailerSeries.innerHTML = contenido;
+                
+                } )
+    
+    
+        .catch(function (error) {
+    
+            console.log(error);
+    
+    
+        })
+    
