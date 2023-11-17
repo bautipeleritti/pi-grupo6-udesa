@@ -4,11 +4,9 @@ let urlparams = new URLSearchParams(location.search);
 
 let qsIdSerie= urlparams.get('id');
 
-
-
-
-
+let recomendadas = `https://api.themoviedb.org/3/tv/${qsIdSerie}/recommendations?api_key=${acaVaLaAPIKey}`;
 let DetalleSerie= `https://api.themoviedb.org/3/tv/${qsIdSerie}?api_key=${acaVaLaAPIKey}`
+let qsRecomendadas = document.querySelector('#recomendador')
 
 
 fetch(DetalleSerie)
@@ -42,16 +40,17 @@ fechaestreno.innerHTML = 'Fecha de estreno:' + ' ' + data.first_air_date
 valoracion = document.querySelector('#valoracion');
 valoracion.innerHTML = 'Valoración: ' + data.vote_average + ' / 10'
 
+genero = document.querySelector('#generoid');
+let contenido = "";
+
     
 for (let index = 0; index < data.genres.length; index++) {
-    
-    
 
-    genero = document.querySelector('#generoid');
-    genero.innerHTML += ' ' + data.genres[index].name
-    
-    }
-    
+    contenido += `<a class="cienciaficcion" href="./detallesgeneros.html?id=${data.genres[index].id}">${data.genres[index].name}</a>` 
+
+   }
+   genero.innerHTML = contenido;
+
 } )
 
 
@@ -63,3 +62,58 @@ console.log(error);
 
 
 })
+
+
+fetch(recomendadas)
+
+    .then(function (res) {
+
+        return res.json();
+
+    })
+
+    .then(function (data) {
+        console.log(data);
+
+        let MiData = data.results;
+        let contenido = "";
+          
+            
+        for (let i=0; i< 5; i ++ ){
+            
+            
+            
+            contenido += `<div class="caja"><a href="./detalleserie.html?id=${MiData[i].id}"><img src="https://image.tmdb.org/t/p/w500/${MiData[i].poster_path} 
+            " class="pulp">
+            <h3 class="titulopeli">${MiData[i].name + " " + MiData[i].first_air_date}</h3>
+            </a></div>`
+
+            }
+            
+            
+            qsRecomendadas.innerHTML = contenido;
+            
+            } )
+
+
+    .catch(function (error) {
+
+        console.log(error);
+
+
+    })
+
+
+
+
+   
+
+
+    function ocultarMostrarDiv() {
+        
+    
+        if (qsRecomendadas.style.display === "none" || qsRecomendadas.style.display === "") {
+          qsRecomendadas.style.display = "flex";
+        } else {
+          qsRecomendadas.style.display = "none";
+        }}

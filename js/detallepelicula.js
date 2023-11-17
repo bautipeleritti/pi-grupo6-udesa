@@ -9,8 +9,8 @@ let qsRecomendadas = document.querySelector('#recomendador')
 let DetallePelicula = `https://api.themoviedb.org/3/movie/${qsIdPelicula}?api_key=${acaVaLaAPIKey}`
 let recomendadas = `https://api.themoviedb.org/3/movie/${qsIdPelicula}/recommendations?api_key=${acaVaLaAPIKey}`;
 
-
-
+let trailer = `https://api.themoviedb.org/3/movie/${qsIdPelicula}/videos?api_key=${acaVaLaAPIKey}`
+let sectiontrailer = document.querySelector('#trailerr')
 fetch(DetallePelicula)
 
     .then(function (res) {
@@ -83,7 +83,7 @@ fetch(recomendadas)
             " class="pulp">
             <h3 class="titulopeli">${MiData[i].title + " " + MiData[i].release_date}</h3>
             </a></div>`
-            
+
             }
             
             
@@ -103,3 +103,48 @@ fetch(recomendadas)
 
 
    
+
+
+    function ocultarMostrarDiv() {
+        
+    
+        if (qsRecomendadas.style.display === "none" || qsRecomendadas.style.display === "") {
+          qsRecomendadas.style.display = "flex";
+        } else {
+          qsRecomendadas.style.display = "none";
+        }}
+
+
+
+        fetch(trailer)
+
+    .then(function (res) {
+
+        return res.json();
+
+    })
+
+    .then(function (data) {
+        console.log(data);
+
+        let MiData = data.results;
+        let contenido = "";
+        for (let i = 0; i < MiData.length; i++) {
+            
+        contenido = `<h2 id="trailerr">Trailer: https://www.youtube.com/watch?v=${MiData[i].key} </h2>`
+        }
+        
+            
+       
+            
+        sectiontrailer.innerHTML = contenido;
+            
+            } )
+
+
+    .catch(function (error) {
+
+        console.log(error);
+
+
+    })

@@ -93,7 +93,7 @@ fetch(urlSeriesRecomendadas)
     `<section class="sectionpadrepelis">
     <div class="contenedor">
         <h2 class="titulopadre"></h2>
-<div class="caja"><a href="./detallepelicula.html?id=${miData[i].id}"><img src="https://image.tmdb.org/t/p/w500/${miData[i].poster_path}" class="pulp">
+<div class="caja"><a href="./detalleserie.html?id=${miData[i].id}"><img src="https://image.tmdb.org/t/p/w500/${miData[i].poster_path}" class="pulp">
      <h3 class="titulopeli">${miData[i].name}</h3>
      
      </div>

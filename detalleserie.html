@@ -28,14 +28,16 @@
                     </a>
 
                 </ul>
-                <form action ="buscar.html" method = "GET" class="">
-                    <p><label for="Buscador"> </label> Buscador </p>
-                    <div class="botonenviar">
-                     <p><input type = "Buscador" id="buscador" name = "q" placeholder="Escriba aqui..." class="search"></p> 
-                     <p><input type = "submit" value = "search" ></p>
-                   </div>
-               </form>
-            </section>
+                <section class="sectionheader2">
+                    <form action ="buscar.html" method = "GET" class="">
+                        <p class="botonbuscar"><label for="Buscador"> </label> Buscador </p>
+                        <div class="botonenviar">
+                         <p><input type = "Buscador" id="buscador" name = "q" placeholder="Escriba aqui..." class="search"></p> 
+                         <p><input class="botonbuscar" type = "submit" value = "search" ></p>
+                       </div>
+                   </form>
+                </section>
+                </section>
         </nav>
     </header>
 
@@ -88,7 +90,12 @@
     
             </div>
         </section>
+   <section>
+        <button id="botonOcultarMostrar" onclick="ocultarMostrarDiv()">Ocultar Recomendados/Mostrar Recomendados</button>
+    </section>
+            <section id="recomendador" class="detalles-pelis">
 
+    </section>
 
     </main>
 
@@ -103,7 +110,7 @@
                 <li class="nombrespdp"><img src="./img/unnamed (1).png" class="imgdatabase" alt=""></li>
             </ul>
         </footer>
-
+       
 
 <script src="./js/detalleserie.js"></script>
 </body>
