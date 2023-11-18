@@ -5,11 +5,11 @@ let urlparams = new URLSearchParams(location.search);
 let qsIdSerie= urlparams.get('id');
 
 let recomendadas = `https://api.themoviedb.org/3/tv/${qsIdSerie}/recommendations?api_key=${acaVaLaAPIKey}`;
-let DetalleSerie= `https://api.themoviedb.org/3/tv/${qsIdSerie}?api_key=${acaVaLaAPIKey}`
-let qsRecomendadas = document.querySelector('#recomendador')
+let DetalleSerie= `https://api.themoviedb.org/3/tv/${qsIdSerie}?api_key=${acaVaLaAPIKey}`;
+let qsRecomendadas = document.querySelector('#recomendador');
 
-let trailerSeries = `https://api.themoviedb.org/3/tv/${qsIdSerie}/videos?api_key=${acaVaLaAPIKey}`
-let sectionTrailerSeries = document.querySelector('#trailerserie')
+let trailerSeries = `https://api.themoviedb.org/3/tv/${qsIdSerie}/videos?api_key=${acaVaLaAPIKey}`;
+let sectionTrailerSeries = document.querySelector('#trailerseriee')
 
 
 fetch(DetalleSerie)
@@ -134,10 +134,11 @@ fetch(recomendadas)
         })
     
         .then(function (data) {
-            console.log(data);
-    
+    console.log(data);
             let MiData = data.results;
             let contenido = "";
+
+            console.log(MiData);
             for (let i = 0; i < MiData.length; i++) {
                 
             contenido = `<h2 id="trailerseriee">Trailer: https://www.youtube.com/watch?v=${MiData[i].key} </h2>`
